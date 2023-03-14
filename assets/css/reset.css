@@ -39,10 +39,12 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-  border-spacing: 0;
+        border-spacing: 0;
 }
 *,
 *::before, 
 *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
